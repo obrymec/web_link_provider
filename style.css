@@ -1,0 +1,58 @@
+/**
+ * @project: Web Link Provider - https://github.com/obrymec/web_link_provider
+ * @fileoverview: The main controller of the page.
+ * @author: Obrymec - https://obrymec.vercel.app
+ * @supported: DESKTOP, MOBILE
+ * @created: 2025-02-10
+ * @updated: 2025-02-11
+ * @file: style.css
+ * @version: 0.0.1
+ */
+
+/** Loader */
+svg {
+  animation: RotationAnimation 400ms linear 0ms infinite normal forwards;
+}
+
+/** Body */
+body {
+  background-color: aliceblue;
+  color: #343434;
+}
+
+/** Hide an element */
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/** Label */
+span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/** Rotation animation */
+@keyframes RotationAnimation {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
+}
+
+/** Main container */
+div {
+  transform: translate(-50%, -50%);
+  transition: all .2s linear;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  row-gap: 24px;
+  display: flex;
+  left: 50%;
+  top: 50%;
+}
