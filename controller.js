@@ -1,5 +1,5 @@
 /**
- * @project Web Link Provider - https://github.com/obrymec/web_link_provider
+ * @project Web Link Provider - https://obrymec.github.io/web_link_provider
  * @fileoverview The main controller of the page.
  * @author Obrymec - https://obrymec.vercel.app
  * @supported DESKTOP, MOBILE
