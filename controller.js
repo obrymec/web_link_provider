@@ -57,6 +57,8 @@ window.addEventListener("DOMContentLoaded", async function () {
       let source = (
         data.hasOwnProperty(wrapper) ? data[wrapper]?.destination : null
       );
+      // Prints the content of loaded data.
+      console.log({source, data});
       // Corrects it whether it's possible.
       source = (typeof source === "string" ? source.trim() : '');
       // Whether the source link is not defined in data.
