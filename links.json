@@ -3,13 +3,17 @@
     "destination": "https://sketchfab.com/3d-models/realistic-military-african-female-soldier-73634b2be3214dc08bdac7a787482e1a",
     "title": "Realistic Military African Female Soldier | Sketchfab"
   },
-  "realistic-destroyed-cars-assets-pack-3d-preview-sfb": {
+  "realistic-destroyed-cars-3d-assets-pack-preview-sfb": {
     "destination": "https://sketchfab.com/3d-models/realistic-destroyed-cars-3d-assets-pack-4b4534d62a784ad6966e06bf5e0f3d24",
     "title": "Realistic Destroyed Cars 3D Assets Pack | Sketchfab"
   },
+  "realistic-buildings-3d-assets-pack-preview-sfb": {
+    "destination": "https://sketchfab.com/3d-models/realistic-buildings-3d-assets-pack-6ff83602de5640d58bb5a5848c7e8361",
+    "title": "Realistic Military African Female Soldier | Sketchfab"
+  },
 
   "realistic-destroyed-cars-3d-assets-pack-for-godot-cbs": {
-    "destination": "https://cubebrush.co/cacybernetic/products/gfup2g/realistic-destroyed-cars-3d-assets-pack-for-godot",
+    "destination": "https://cubebrush.co/cacybernetic/products/gfup2g/realistic-destroyed-cars-3d-assets-pack-for-godot-vol-1",
     "title": "Realistic Destroyed Cars 3D Assets Pack For Godot | CubeBrush"
   },
   "realistic-destroyed-cars-3d-assets-pack-for-godot-cgt": {
@@ -17,16 +21,16 @@
     "title": "Realistic Destroyed Cars 3D Assets Pack For Godot | CGTrader"
   },
   "realistic-destroyed-cars-3d-assets-pack-for-godot-fpn": {
-    "destination": "https://flippednormals.com/product/realistic-destroyed-cars-3d-assets-pack-for-godot-53347",
+    "destination": "https://flippednormals.com/product/realistic-destroyed-cars-3d-assets-pack-for-godot-vol-1-53347",
     "title": "Realistic Destroyed Cars 3D Assets Pack For Godot | FlippedNormals"
+  },
+  "realistic-destroyed-cars-3d-assets-pack-for-godot-gmd": {
+    "destination": "https://cacybernetic.gumroad.com/l/realistic-destroyed-cars-3d-assets-pack-for-godot-vol1",
+    "title": "Realistic Destroyed Cars 3D Assets Pack For Godot | Gumroad"
   },
   "realistic-destroyed-cars-3d-assets-pack-for-godot-gdm": {
     "destination": "https://www.gamedevmarket.net/asset/realistic-destroyed-cars-3d-assets-pack-for-godot",
     "title": "Realistic Destroyed Cars 3D Assets Pack For Godot | GameDevMarket"
-  },
-  "realistic-destroyed-cars-3d-assets-pack-for-godot-gmd": {
-    "destination": "https://cacybernetic.gumroad.com/l/realistic-destroyed-cars-assets-pack-for-godot",
-    "title": "Realistic Destroyed Cars 3D Assets Pack For Godot | Gumroad"
   },
   "realistic-destroyed-cars-3d-assets-pack-for-godot-ars": {
     "title": "Realistic Destroyed Cars 3D Assets Pack For Godot | ArtStation",
@@ -34,7 +38,7 @@
   },
 
   "realistic-destroyed-cars-3d-assets-pack-for-blender-cbs": {
-    "destination": "https://cubebrush.co/cacybernetic/products/faxxga/realistic-destroyed-cars-3d-assets-pack-for-blender",
+    "destination": "https://cubebrush.co/cacybernetic/products/faxxga/realistic-destroyed-cars-3d-assets-pack-for-blender-vol-1",
     "title": "Realistic Destroyed Cars 3D Assets Pack For Blender | CubeBrush"
   },
   "realistic-destroyed-cars-3d-assets-pack-for-blender-cgt": {
@@ -42,16 +46,16 @@
     "title": "Realistic Destroyed Cars 3D Assets Pack For Blender | CGTrader"
   },
   "realistic-destroyed-cars-3d-assets-pack-for-blender-fpn": {
-    "destination": "https://flippednormals.com/product/realistic-destroyed-cars-3d-assets-pack-for-blender-52953",
+    "destination": "https://flippednormals.com/product/realistic-destroyed-cars-3d-assets-pack-for-blender-vol-1-52953",
     "title": "Realistic Destroyed Cars 3D Assets Pack For Blender | FlippedNormals"
+  },
+  "realistic-destroyed-cars-3d-assets-pack-for-blender-gmd": {
+    "destination": "https://cacybernetic.gumroad.com/l/realistic-destroyed-cars-3d-assets-pack-for-blender-vol1",
+    "title": "Realistic Destroyed Cars 3D Assets Pack For Blender | Gumroad"
   },
   "realistic-destroyed-cars-3d-assets-pack-for-blender-gdm": {
     "destination": "https://www.gamedevmarket.net/asset/realistic-destroyed-cars-3d-assets-pack-for-blender",
     "title": "Realistic Destroyed Cars 3D Assets Pack For Blender | GameDevMarket"
-  },
-  "realistic-destroyed-cars-3d-assets-pack-for-blender-gmd": {
-    "destination": "https://cacybernetic.gumroad.com/l/realistic-destroyed-cars-assets-pack-for-blender",
-    "title": "Realistic Destroyed Cars 3D Assets Pack For Blender | Gumroad"
   },
   "realistic-destroyed-cars-3d-assets-pack-for-blender-ars": {
     "title": "Realistic Destroyed Cars 3D Assets Pack For Blender | ArtStation",
@@ -61,6 +65,10 @@
   "realistic-buildings-3d-assets-pack-for-godot-vol1-fpn": {
     "destination": "https://flippednormals.com/product/realistic-buildings-3d-assets-pack-for-godot-vol-1-57646",
     "title": "Realistic Buildings 3D Assets Pack For Godot Vol 1 | FlippedNormals"
+  },
+  "realistic-buildings-3d-assets-pack-for-godot-vol1-gmd": {
+    "destination": "https://cacybernetic.gumroad.com/l/realistic-buildings-3d-assets-pack-for-godot-vol1",
+    "title": "Realistic Buildings 3D Assets Pack For Godot Vol 1 | Gumroad"
   },
   
   "realistic-military-african-female-soldier-cgt": {
