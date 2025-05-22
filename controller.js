@@ -88,7 +88,6 @@ window.addEventListener("DOMContentLoaded", async function () {
           break;
         }
       }
-
     }
   }
 });
