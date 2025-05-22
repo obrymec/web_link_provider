@@ -62,10 +62,12 @@ window.addEventListener("DOMContentLoaded", async function () {
     if (wrapper.length <= 0) alertError(linkNotFound, mainContainer);
     // Otherwise.
     else {
+      // The last position index.
+      const lastIndex = (jsonFilePaths.length - 1);
       // Searches provided link.
-      for (const jsonFilePath of jsonFilePaths) {
+      for (let i = 0; i < jsonFilePaths.length; i++) {
         // The json file path.
-        const path = `./links/${jsonFilePath}.json`;
+        const path = `./links/${jsonFilePaths[i]}.json`;
         // Loads local data from the static json file.
         const data = await (await this.window.fetch(path)).json();
         // Tries to get the wrapper source link.
@@ -75,15 +77,18 @@ window.addEventListener("DOMContentLoaded", async function () {
         // Corrects it whether it's possible.
         source = (typeof source === "string" ? source.trim() : '');
         // Whether the source link is not defined in data.
-        if (source.length <= 0) alertError(sourceNotFound, mainContainer);
+        if (source.length <= 0) {
+          // Undefined destination link.
+          if (i >= lastIndex) alertError(sourceNotFound, mainContainer);
         // Otherwise.
-        else {
+        } else {
           // Goes to the provided link.
           this.window.location.href = source;
           // Gets out of loop.
           break;
         }
       }
+
     }
   }
 });
