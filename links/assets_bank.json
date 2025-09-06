@@ -24,11 +24,15 @@
     "destination": "https://sketchfab.com/prince-obrymec",
     "title": "Sketchfab Assets Bank"
   },
+  "3dp-assets-bank": {
+    "destination": "https://3dexport.com/cacybernetic",
+    "title": "3DExport Assets Bank"
+  },
   "gmd-assets-bank": {
     "destination": "https://cacybernetic.gumroad.com",
     "title": "Gumroad Assets Bank"
   },
-  "ith-assets-bank": {
+  "ich-assets-bank": {
     "destination": "https://cacybernetic.itch.io",
     "title": "Itch.io Assets Bank"
   }
