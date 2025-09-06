@@ -27,5 +27,9 @@
   "gmd-assets-bank": {
     "destination": "https://cacybernetic.gumroad.com",
     "title": "Gumroad Assets Bank"
+  },
+  "ith-assets-bank": {
+    "destination": "https://cacybernetic.itch.io",
+    "title": "Itch.io Assets Bank"
   }
 }
