@@ -4,9 +4,9 @@
  * @author Obrymec - https://obrymec.vercel.app
  * @supported DESKTOP, MOBILE
  * @created 2025-02-10
- * @updated 2025-05-22
+ * @updated 2025-09-07
  * @file controller.js
- * @version 0.0.2
+ * @version 0.0.3
  */
 
 // Global attributes.
@@ -21,6 +21,7 @@ const jsonFilePaths = [
   "buildings_blender_vol1",
   "african_female_soldier",
   "buildings_godot_vol1",
+  "assets_banks",
   "sketchfab"
 ];
 
