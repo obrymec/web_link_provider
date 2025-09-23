@@ -22,6 +22,7 @@ const jsonFilePaths = [
   "buildings_blender_vol2",
   "african_female_soldier",
   "buildings_godot_vol1",
+  "buildings_godot_vol2",
   "assets_banks",
   "sketchfab"
 ];
