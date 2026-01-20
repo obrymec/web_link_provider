@@ -17,6 +17,7 @@ const sourceNotFound = (
 );
 const jsonFilePaths = [
   "african_female_soldier_blender",
+  "african_female_soldier_godot",
   "destroyed_cars_blender_vol1",
   "destroyed_cars_godot_vol1",
   "buildings_blender_vol1",
