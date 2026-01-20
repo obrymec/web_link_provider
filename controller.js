@@ -4,9 +4,9 @@
  * @author Obrymec - https://obrymec.vercel.app
  * @supported DESKTOP, MOBILE
  * @created 2025-02-10
- * @updated 2025-09-23
+ * @updated 2026-01-20
  * @file controller.js
- * @version 0.0.4
+ * @version 0.0.5
  */
 
 // Global attributes.
@@ -16,11 +16,11 @@ const sourceNotFound = (
   "The destination link to contact from this wrapper doesn't exist."
 );
 const jsonFilePaths = [
+  "african_female_soldier_blender",
   "destroyed_cars_blender_vol1",
   "destroyed_cars_godot_vol1",
   "buildings_blender_vol1",
   "buildings_blender_vol2",
-  "african_female_soldier",
   "buildings_godot_vol1",
   "buildings_godot_vol2",
   "assets_banks",
