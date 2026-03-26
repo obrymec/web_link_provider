@@ -1,12 +1,12 @@
 /**
- * @project Web Link Provider - https://obrymec.github.io/web_link_provider
- * @fileoverview The main controller of the page.
+ * @organization Console Art Cybernetic - https://cacybernetic.github.io
  * @author Obrymec - https://obrymec.vercel.app
+ * @fileoverview The main controller of page.
  * @supported DESKTOP, MOBILE
  * @created 2025-02-10
- * @updated 2026-01-20
+ * @updated 2026-03-27
  * @file controller.js
- * @version 0.0.5
+ * @version 0.0.6
  */
 
 // Global attributes.
@@ -38,31 +38,31 @@ const jsonFilePaths = [
  * @returns {void}
  */
 function alertError (message, tag) {
-  // Hides the loader.
+  // Hides loader.
   tag.classList.add("hidden");
-  // Displays the message across an alert dialog.
+  // Displays message across an alert dialog.
   window.alert(message);
-  // Shows the loader.
+  // Shows loader.
   tag.classList.remove("hidden");
-  // Goes the last loaded website.
+  // Goes last loaded website.
   window.history.back();
 }
 
-// Whether the page is fully loaded.
+// Whether page is fully loaded.
 window.addEventListener("DOMContentLoaded", async function () {
   // The main container html tag instance.
   const mainContainer = this.document.querySelector("div#main-container");
   // Gets browser search bar.
   const searchInput = this.window.location.href;
-  // Whether the browser link has no hashtag character.
+  // Whether browser link has no hashtag character.
   if (!searchInput.includes('#')) alertError(hashTagNotFound, mainContainer);
   // Otherwise.
   else {
-    // Tries to get the link wrapper.
+    // Tries to get link wrapper.
     let wrapper = searchInput.split('#')[1];
     // Removes unexpected characters.
     wrapper = (typeof wrapper === "string" ? wrapper.trim() : '');
-    // Whether the wrapper is undefined.
+    // Whether wrapper is undefined.
     if (wrapper.length <= 0) alertError(linkNotFound, mainContainer);
     // Otherwise.
     else {
@@ -72,21 +72,21 @@ window.addEventListener("DOMContentLoaded", async function () {
       for (let i = 0; i < jsonFilePaths.length; i++) {
         // The json file path.
         const path = `./links/${jsonFilePaths[i]}.json`;
-        // Loads local data from the static json file.
+        // Loads local data from static json file.
         const data = await (await this.window.fetch(path)).json();
-        // Tries to get the wrapper source link.
+        // Tries to get wrapper source link.
         let source = data[wrapper]?.destination;
-        // Prints the content of loaded data.
+        // Prints content of loaded data.
         console.log({source, data});
         // Corrects it whether it's possible.
         source = (typeof source === "string" ? source.trim() : '');
-        // Whether the source link is not defined in data.
+        // Whether source link is not defined in data.
         if (source.length <= 0) {
           // Undefined destination link.
           if (i >= lastIndex) alertError(sourceNotFound, mainContainer);
         // Otherwise.
         } else {
-          // Goes to the provided link.
+          // Goes to provided link.
           this.window.location.href = source;
           // Gets out of loop.
           break;
