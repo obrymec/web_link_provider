@@ -4,7 +4,7 @@
  * @fileoverview The main controller of page.
  * @supported DESKTOP, MOBILE
  * @created 2025-02-10
- * @updated 2026-03-27
+ * @updated 2026-03-28
  * @file controller.js
  * @version 0.0.6
  */
@@ -25,7 +25,8 @@ const jsonFilePaths = [
   "buildings_godot_vol1",
   "buildings_godot_vol2",
   "assets_banks",
-  "sketchfab"
+  "sketchfab",
+  "networks"
 ];
 
 /**
