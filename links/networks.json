@@ -11,13 +11,13 @@
     "destination": "https://chat.whatsapp.com/InLJpXa5Z4IBwFoVpM1e78",
     "title": "Whatsapp Contact Support"
   },
-  "console-art-cybernetic-youtube": {
-    "destination": "https://www.youtube.com/@consoleartcybernetic680",
-    "title": "YouTube Channel"
-  },
   "console-art-cybernetic-instagram": {
     "destination": "https://www.instagram.com/cacybernetic",
     "title": "Instagram"
+  },
+  "console-art-cybernetic-youtube": {
+    "destination": "http://www.youtube.com/@cacybernetic",
+    "title": "YouTube Channel"
   },
   "console-art-cybernetic-github": {
     "destination": "https://github.com/cacybernetic",
