@@ -15,9 +15,21 @@
     "destination": "https://www.youtube.com/@consoleartcybernetic680",
     "title": "YouTube Channel"
   },
+  "console-art-cybernetic-instagram": {
+    "destination": "https://www.instagram.com/cacybernetic",
+    "title": "Instagram"
+  },
   "console-art-cybernetic-github": {
     "destination": "https://github.com/cacybernetic",
     "title": "GitHub"
+  },
+  "console-art-cybernetic": {
+    "destination": "https://cacybernetic.github.io",
+    "title": "Official Website"
+  },
+  "console-art-cybernetic-twitter": {
+    "destination": "https://x.com/cacybernetic",
+    "title": "Twitter X"
   }
 }
 
